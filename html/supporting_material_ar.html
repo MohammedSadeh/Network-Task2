@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المواد الداعمة</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="body2">
+    <h1>مواد داعمة </h1>
+    <p>!ادخل اسم الصورة أو الفيديو المراد _ نحن سوف نجده لك</p>
+
+    <form method="GET" action="request_handler">
+        <label for="material">ادخل اسم الملف</label>
+        <input type="text" id="material" name="material" placeholder="e.g., HTTP protocol" required>
+        <label>
+            <input type="radio" name="type" value="image" checked> صورة
+        </label>
+        <label>
+            <input type="radio" name="type" value="video"> فيديو
+        </label>
+        <button type="submit"> اضغط</button>
+    </form>
+</body>
+
+</html>

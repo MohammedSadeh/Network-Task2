@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporting Material</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="body2">
+    <h1>Request Supporting Material</h1>
+    <p>Enter the name of the image or video you need, and we'll find it for you!</p>
+
+    <form method="GET" action="request_handler">
+        <label for="material">Enter File Name:</label>
+        <input type="text" id="material" name="material" placeholder="e.g., HTTP protocol" required>
+        <label>
+            <input type="radio" name="type" value="image" checked> Image
+        </label>
+        <label>
+            <input type="radio" name="type" value="video"> Video
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
