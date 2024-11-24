@@ -1,5 +1,4 @@
 import socket
-from os.path import split
 from socket import *
 import os
 
